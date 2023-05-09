@@ -16,13 +16,19 @@ public class Fila4 {
       Fila4 f4 = new Fila4();
       
       switch (scelta){
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-        case 5:
-        case 6:
-        default: f4.stampaMessaggio("Funzionalità non prevista o ancora mancante.");
+        case 1: f4.sommaDueNumeri(in); 
+                break;
+        case 2: f4.sottraiDueNumeri(in); 
+                break;
+        case 3: f4.moltiplicaDueNumeri(in); 
+                break;
+        case 4: f4.dividiDueNumeri(in); 
+                break;
+        case 5: f4.quadratoDiUnNumero(in); 
+                break;
+        case 6: f4.cuboDiUnNumero(in); 
+                break;
+        default: f4.stampaMessaggio("Funzionalità non prevista!");
       }
     }
     
