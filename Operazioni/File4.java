@@ -30,4 +30,28 @@ public class Fila4 {
       System.out.println(m);
     }
 
+    void sommaDueNumeri(Scanner in){
+      //Inserire il codice qui
+    }
+    
+    void sottraiDueNumeri(Scanner in){
+      //Inserire il codice qui
+    }
+    
+    void moltiplicaDueNumeri(Scanner in){
+      //Inserire il codice qui
+    }
+    
+    void dividiDueNumeri(Scanner in){
+      //Inserire il codice qui
+    }
+    
+    void quadratoDiUnNumero(Scanner in){
+      //Inserire il codice qui
+    }
+    
+    void cuboDiUnNumero(Scanner in){
+      //Inserire il codice qui
+    }
+
 }
