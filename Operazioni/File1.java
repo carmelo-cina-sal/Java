@@ -16,13 +16,19 @@ public class Fila1 {
       Fila1 f1 = new Fila1();
       
       switch (scelta){
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-        case 5:
-        case 6:
-        default: f1.stampaMessaggio("Funzionalità non prevista o ancora mancante.");
+        case 1: f1.sommaDueNumeri(in); 
+                break;
+        case 2: f1.sottraiDueNumeri(in); 
+                break;
+        case 3: f1.moltiplicaDueNumeri(in); 
+                break;
+        case 4: f1.dividiDueNumeri(in); 
+                break;
+        case 5: f1.quadratoDiUnNumero(in); 
+                break;
+        case 6: f1.cuboDiUnNumero(in); 
+                break;
+        default: f1.stampaMessaggio("Funzionalità non prevista!");
       }
     }
     

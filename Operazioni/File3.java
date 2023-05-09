@@ -16,19 +16,19 @@ public class Fila3 {
       Fila3 f3 = new Fila3();
       
       switch (scelta){
-        case 1: f1.sommaDueNumeri(in); 
+        case 1: f3.sommaDueNumeri(in); 
                 break;
-        case 2: f1.sottraiDueNumeri(in); 
+        case 2: f3.sottraiDueNumeri(in); 
                 break;
-        case 3: f1.moltiplicaDueNumeri(in); 
+        case 3: f3.moltiplicaDueNumeri(in); 
                 break;
-        case 4: f1.dividiDueNumeri(in); 
+        case 4: f3.dividiDueNumeri(in); 
                 break;
-        case 5: f1.quadratoDiUnNumero(in); 
+        case 5: f3.quadratoDiUnNumero(in); 
                 break;
-        case 6: f1.cuboDiUnNumero(in); 
+        case 6: f3.cuboDiUnNumero(in); 
                 break;
-        default: f1.stampaMessaggio("Funzionalità non prevista!");
+        default: f3.stampaMessaggio("Funzionalità non prevista!");
       }
     }
     
