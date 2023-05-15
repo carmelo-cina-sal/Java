@@ -37,11 +37,18 @@ public class Fila3 {
     }
 
     void sommaDueNumeri(Scanner in){
-      //Inserire il codice qui
+    
+
     }
     
     void sottraiDueNumeri(Scanner in){
-      //Inserire il codice qui
+     System.out.println("Dammi il primo numero");
+     int a = in.nextInt();
+    System.out.println("Dammi il secondo numero");
+     int b = in.nextInt();
+     int sottrazione = a-b;
+System.out.println("La differenza vale: " + sottrazione);
+    
     }
     
     void moltiplicaDueNumeri(Scanner in){
