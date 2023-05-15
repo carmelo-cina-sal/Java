@@ -37,7 +37,13 @@ public class Fila2 {
     }
 
     void sommaDueNumeri(Scanner in){
-      //Inserire il codice qui
+       Scanner sc = new Scanner(System.in);
+      System.out.println("Inserire primo numero");
+      int a = sc.nextInt();
+      System.out.println("Inserire secondo numero");
+      int b = sc.nextInt();
+      int somma = a+b;
+      System.out.println("la somma e' " + somma);
     }
     
     void sottraiDueNumeri(Scanner in){
