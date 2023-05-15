@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Fila4 {
-
+Scanner tastiera = new Scanner(System.in);
     public static void main(String[] args) {
       int scelta = 0;
       System.out.println("Selezionare l'operazione da effettuare");
@@ -57,7 +57,10 @@ public class Fila4 {
     }
     
     void cuboDiUnNumero(Scanner in){
-      //Inserire il codice qui
+      System.out.println("Inserisci un numero intero");
+      int a = tastiera.nextInt();
+      int cubo = a*a*a;
+      System.out.println("Il cubo del numero "+a+" vale "+cubo);
     }
 
 }
